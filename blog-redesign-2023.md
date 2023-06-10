@@ -43,4 +43,4 @@ Honestly, this is my favourite part of the redesign. I'm using [Netlify Edge fun
 
 I'm trying to get better at building in public so this site is far from finished. I want to focus on content next. Over time, I'll be adding pages for tags, featured and an about page. If you're curious, here's a screenshot of the old homepage and you can still play with the old site [here](https://elastic-engelbart-26e6d9.netlify.app/).
 
-![Old blog homepage](./images/redesigning-blog-2023-before-2.png)
+![Old blog homepage](../../assets/redesigning-blog-2023-before-2.png)
