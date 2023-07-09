@@ -5,7 +5,7 @@ title: "Learning about Open API"
 description: "Learning note on what Open API is and what it's used for"
 featured: false
 draft: false
-tags: ["learning note"]
+tags: ["API design"]
 ---
 
 OpenAPI is a specification (OpenAPI Specification (OAS)) that is a way to define how you interact with an API without needing to understand implementation logic. You describe the capabilities of the service and someone can understand what it does without needing to look at source code, documentation, or network traffic inspection. The OpenAPI definition can then be used by documentation tools or code gen tools to display the docs or generate servers and clients respectively.
