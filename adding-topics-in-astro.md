@@ -7,9 +7,7 @@ draft: true
 topics: ["Tutorials", "Astrojs"]
 ---
 
-This month's Virtual Coffee challenge is [Build in Public](https://dev.to/virtualcoffee/join-virtual-coffee-for-the-build-in-public-the-power-of-daily-standup-and-demo-challenge-35kb). And I wanted to kick things off with some website updates. I've been meaning to add tags to my site for a long time. For anyone who's peeked at my source code, I've had a `_tag` folder as well as a header link setup but commented out. 
-![Hiding my tag header link in HTML](../../assets/hidden-tag-html.png)
-After poking around at other people's sites, I decided to switch from the concept of tagging to the concept of topics. While the naming is different the process to adding topics was the same. In this post I want to share how I added topics, what I learnt, and what's next. 
+This month's Virtual Coffee challenge is [Build in Public](https://dev.to/virtualcoffee/join-virtual-coffee-for-the-build-in-public-the-power-of-daily-standup-and-demo-challenge-35kb). And I wanted to kick things off with some website updates. I've been meaning to add tags to my site for a long time. After poking around at other people's sites, I decided to switch from the concept of tagging to the concept of topics. While the naming is different the process to adding topics was the same. In this post I want to share how I added topics, what I learnt, and what's next. 
 
 ## How I added topics to my site
 I mainly followed the [Astro guide on building a tag index page](https://docs.astro.build/en/tutorial/5-astro-api/3/](https://docs.astro.build/en/tutorial/5-astro-api/3/).
