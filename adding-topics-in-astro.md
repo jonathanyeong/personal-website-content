@@ -3,7 +3,7 @@ pubDate: 2023-07-11
 title: "Adding Topics (aka tags) in Astro"
 description: "A short how to guide on adding topics to your Astro site. Part of Virtual Coffee Build in Public challenge"
 featured: false
-draft: true
+draft: false
 topics: ["Tutorials", "Astrojs"]
 ---
 
