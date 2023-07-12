@@ -1,6 +1,5 @@
 ---
-pubDate: 2023-04-05
-updatedDate: 2023-04-05
+pubDate: 2023-07-11
 title: "Adding Topics (aka tags) in Astro"
 description: "A short how to guide on adding topics to your Astro site. Part of Virtual Coffee Build in Public challenge"
 featured: false
@@ -9,11 +8,11 @@ topics: ["Tutorials", "Astrojs"]
 ---
 
 This month's Virtual Coffee challenge is [Build in Public](https://dev.to/virtualcoffee/join-virtual-coffee-for-the-build-in-public-the-power-of-daily-standup-and-demo-challenge-35kb). And I wanted to kick things off with some website updates. I've been meaning to add tags to my site for a long time. For anyone who's peeked at my source code, I've had a `_tag` folder as well as a header link setup but commented out. 
-
+![Hiding my tag header link in HTML](../../assets/hidden-tag-html.png)
 After poking around at other people's sites, I decided to switch from the concept of tagging to the concept of topics. While the naming is different the process to adding topics was the same. In this post I want to share how I added topics, what I learnt, and what's next. 
 
 ## How I added topics to my site
-I mainly followed the [Astro guide on building a tag index page]([https://docs.astro.build/en/tutorial/5-astro-api/3/](https://docs.astro.build/en/tutorial/5-astro-api/3/).
+I mainly followed the [Astro guide on building a tag index page](https://docs.astro.build/en/tutorial/5-astro-api/3/](https://docs.astro.build/en/tutorial/5-astro-api/3/).
 
 Firstly, I created this structure in my project:
 
@@ -82,10 +81,10 @@ const posts = (await getCollection('blog'))
 const topics = [...new Set(posts.flatMap((post) => post.data.topics))];
 ```
 
-This line will get all my posts from my blog folder, pull out all of the topics, and return a list of topics with no duplicates. 
+This line will get all my posts from my blog folder, pull out all of the topics, and return an array of topics with no duplicates. 
 
 #### [topic].astro
-To generate the corresponding topic endpoints like `/topic/api%20design/` I needed to modify the `getStaticPaths()` function in the `[topic].astro`. ([source code](https://github.com/jonathanyeong/personal-website/blob/main/src/pages/topics/%5Btopic%5D.astro#L7)). I forgot to modify it originally, and I was very confused when I kept getting a 404 not found error when trying to navigate to a topic page!
+To generate the corresponding topic endpoints like `/topic/api%20design/` I needed to modify the `getStaticPaths()` function in the `[topic].astro`. ([source code](https://github.com/jonathanyeong/personal-website/blob/main/src/pages/topics/%5Btopic%5D.astro#L7)). I forgot to modify it originally, and I was very confused when I kept getting a 404 not found error when trying to navigate to a topic page 🤦🏻!
 
 ```javascript
 export async function getStaticPaths() {
