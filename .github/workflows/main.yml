@@ -14,4 +14,4 @@ jobs:
           curl -XPOST https://api.github.com/repos/jonathanyeong/personal-website/dispatches \
           -H 'Accept: application/vnd.github+json' \
           -u jonathanyeong:${{ secrets.ACCESS_TOKEN }} \
-          --data '{"event_type": "ping"}'
+          --data '{"event_type": "deploy content changes"}'
