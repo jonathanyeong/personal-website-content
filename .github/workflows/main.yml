@@ -1,0 +1,17 @@
+name: Trigger deploy
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger parent repository update 
+        run: |
+          curl -XPOST https://api.github.com/repos/jonathanyeong/personal-website/dispatches \
+          -H 'Accept: application/vnd.github+json' \
+          -u jonathanyeong:${{ secrets.ACCESS_TOKEN }} \
+          --data '{"event_type": "ping"}'
