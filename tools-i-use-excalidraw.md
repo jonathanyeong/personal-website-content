@@ -14,7 +14,7 @@ The low fidelity look and feel reduces the friction of creating diagrams. I don'
 
 Here are a couple of random things I've made in Excalidraw:
 
-![Flow chart of how my personal website is structured](https://private-user-images.githubusercontent.com/3861088/331731750-55838772-f679-413d-ab1e-453bbc5c3f14.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTY4NTQ5NTYsIm5iZiI6MTcxNjg1NDY1NiwicGF0aCI6Ii8zODYxMDg4LzMzMTczMTc1MC01NTgzODc3Mi1mNjc5LTQxM2QtYWIxZS00NTNiYmM1YzNmMTQucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDUyOCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA1MjhUMDAwNDE2WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ODQ3ZGYwMDdmNTU2MDg4NWRiNDhmOWQ2YTk5MTYwZjlkOTM1OWIxODhlZTY0MDM5ZmE0NjZlZjZhYzZmY2ZhZCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.aHUA6PhWbeZcIVfsbBr2fc6KI4PDl_sKVtblM_Sh0aE)
+![Flow chart of how my personal website is structured](https://github.com/jonathanyeong/personal-website/assets/3861088/55838772-f679-413d-ab1e-453bbc5c3f14)
 *Flow chart of how my personal website is structured*
 
 ![Brainstorming a side project](https://github.com/jonathanyeong/home-alone/blob/main/home_alone_design_v2.png?raw=true)
