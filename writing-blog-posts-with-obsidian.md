@@ -4,6 +4,10 @@ title: Writing blog posts with Obsidian
 description: How I use Obisidan to make my Markdown look pretty
 featured: false
 draft: true
+updatedDate: 2024-05-31
+topics:
+  - Productivity
+  - writing
 ---
 
 I've been writing a lot of Markdown lately. And I have two thoughts:
@@ -49,3 +53,7 @@ topics: []
 ## What's next?
 
 My main gripe with my workflow is media management. It's non-existent. I'd love to add more images or GIFs to my posts. But there are many steps to insert an image. There are also a few hoops I have to go through to publish a post. I added some automation to help, planning to write about that soon! Finally, I've been looking at using [TinaCMS](https://tina.io/), a headless CMS that can push to Git, more on that to come as well. 
+
+---
+
+UPDATE: I did some digging and I found a [Cloudinary Uploader for Obsidian plugin](https://jordanhandy.github.io/obsidian-cloudinary-uploader/). I'm super excited to try this.
