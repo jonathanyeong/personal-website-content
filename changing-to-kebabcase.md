@@ -6,6 +6,9 @@ description: I was surprised that Rails and Ruby didn't have a built in kebab ca
 featured: false
 draft: true
 topics:
+  - ruby
+  - rails
+  - backend
 ---
 Recently, I was working on a Rails app where I wanted to make some pretty URLs for it. I have a route where you can view a Dog resource `GET /dog/1`. Having an ID in the URL is not what I want. People could increment the ID to potentially see other dogs. But more importantly, it's not personal! I wanted the URL to show your dog name instead, like `/dog/albie` or `/dog/st-george-bernard-the-3rd`. I needed a way to make pretty kebab case URLs.
 
