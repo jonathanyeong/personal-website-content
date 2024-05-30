@@ -3,7 +3,7 @@ pubDate: 2024-05-31
 title: Writing blog posts with Obsidian
 description: How I use Obisidan to make my Markdown look pretty
 featured: false
-draft: false
+draft: true
 ---
 
 I've been writing a lot of Markdown lately. And I have two thoughts:
