@@ -1,6 +1,6 @@
 ---
-pubDate: 2024-06-02
-updatedDate: 2024-06-02
+pubDate: 2024-05-31
+updatedDate: 2024-05-31
 title: 30 Days of Posts
 description: I was inspired to try writing a daily blog post for 30 days
 featured: false

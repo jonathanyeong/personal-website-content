@@ -1,10 +1,10 @@
 ---
-pubDate: 2024-05-31
+pubDate: 2024-06-02
 title: Writing blog posts with Obsidian
 description: How I use Obisidan to make my Markdown look pretty
 featured: false
 draft: true
-updatedDate: 2024-05-31
+updatedDate: 2024-06-02
 topics:
   - Productivity
   - writing
