@@ -1,11 +1,11 @@
 ---
 pubDate: 2023-07-17
-updatedDate: 2023-07-17
-title: "Fixing a Timezone bug on my blog"
-description: "I had a bug on my blog where the published date displayed was different then the published date I added in my markdown. It came down to a timezone issue!"
+updatedDate: 2024-05-30
+title: Fixing a Timezone bug on my blog
+description: I had a bug on my blog where the published date displayed was different then the published date I added in my markdown. It came down to a timezone issue!
 featured: false
-draft: true
-topics: []
+draft: false
+topics:
 ---
 
 I noticed a weird bug on my blog the other day. The dates that I set in my blog post metadata didn't line up with the dates that I saw on the page. It was always a day off. For example, the front matter for my blog post showed days:
@@ -78,3 +78,7 @@ const formatDate = (date: Date) => {
 ```
 
 This bug was a reminder that timezones are the worst.
+
+---
+
+P.S: I had this post sitting in draft for about a year, and I have no idea why.
