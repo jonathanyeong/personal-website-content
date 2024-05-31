@@ -4,7 +4,7 @@ updatedDate: 2024-05-31
 title: 30 Days of Posts
 description: I was inspired to try writing a daily blog post for 30 days
 featured: false
-draft: true
+draft: false
 topics:
   - life
   - writing
