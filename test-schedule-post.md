@@ -20,4 +20,4 @@ topics:
 
 ---
 
-This is a test scheduled post
+This is a test scheduled post. See yesterday's post on [Scheduling Posts with AstroJS](https://jonathanyeong.com/changelog-scheduling-posts-with-astrojs/) for reference.
