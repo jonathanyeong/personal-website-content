@@ -19,7 +19,6 @@ When I write pure Markdown, I feel like it's too noisy. I've tried some editors 
 
 Then I found [Obsidian](https://obsidian.md/). It's a writing app that's popular in the PKM (personal knowledge management) space. You can use it to organise your thoughts and link together different concepts. It fits perfectly in my workflow because it provides a distraction-free environment, live preview, and page templates.
 
-*Pic here*
 ## Setting up the blog post workflow
 To set up the workflow, I needed to symlink two folders. One was to my content folder in my Astro project. And the other was to the folder I created for blog posts in Obsidian.
 
