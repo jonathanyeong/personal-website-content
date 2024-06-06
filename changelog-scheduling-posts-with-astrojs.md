@@ -1,6 +1,6 @@
 ---
 pubDate: 2024-06-03
-updatedDate: 2024-06-03
+updatedDate: 2024-06-06
 title: Scheduling Posts with AstroJS
 description: Quick demo on how I schedule posts with AstroJS
 featured: false
@@ -70,3 +70,24 @@ const hasPubDatePassed = (post: CollectionEntry<"blog">) => {
 
 ---
 I have a scheduled post for tomorrow to test this feature 🤞 it all works. *Note to self: automated tests would be nice*.
+
+### Update: GitHub Action to trigger a build
+
+After I finished writing this post, I realised I missed one big thing. When AstroJS builds, it's building as a static site. Which means at the time of the build, only those posts will exist. So scheduling a post in the future will never work because it will never exist in the AstroJS build step 🤦🏻. 
+
+To resolve this issue, I introduced a GitHub Action that would [trigger daily at 6am UTC](https://github.com/jonathanyeong/personal-website/blob/main/.github/workflows/trigger-scheduled-build.yml) (around 2am EST). The GitHub Action will call a [Netlify build hook](https://docs.netlify.com/configure-builds/build-hooks/) , which will build the site and pull in the scheduled post. It's important to keep the build hook a secret because it's not authed, meaning anyone can `curl` the URL and trigger a build.
+
+```yaml
+name: "Scheduled Build"
+on:
+  schedule:
+    - cron: "0 6 * * *"
+jobs:
+  trigger_netlify_build:
+    name: trigger_netlify_build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call netlify build
+        run: |
+          curl -X POST -d {} ${{ secrets.NETLIFY_BUILD_HOOK }}
+```
