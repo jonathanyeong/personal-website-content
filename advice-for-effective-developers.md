@@ -23,7 +23,7 @@ Syntax FM released a podcast episode [11 habits of highly effective developers](
 
 While listening, I made a mental note to keep practising these habits, I loved them! Especially, having fun with development. Usually, I see programming as a way to solve business problems. I forget that it can also be used to make fun things!
 
-After the podcast ended, I thought about what advice would I have given my past self to be a more effective developer? So I made a list! I'll add to it over time, and I'm hoping you'll find the advice useful.
+After the podcast ended, I thought about what advice would I have given my past self to be a more effective developer? So I made a list! I'll add to it over time, and I hope you'll find the advice useful.
 
 ---
 
