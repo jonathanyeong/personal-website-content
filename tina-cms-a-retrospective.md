@@ -1,6 +1,6 @@
 ---
-pubDate: 2024-06-07
-updatedDate: 2024-06-07
+pubDate: 2024-06-08
+updatedDate: 2024-06-08
 title: "Tina CMS: a retrospective"
 description: A retrospective on trying to implement Tina CMS into my workflow
 featured: false
