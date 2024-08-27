@@ -1,8 +1,8 @@
 ---
 pubDate: 2024-08-27
 updatedDate: 2024-08-27
-title: Minimalist Guide to Prod
-description: The rulebook that I need when I'm feeling productive
+title: Personal Productivity Handbook
+description: My guide to personal productivity, including a lesson to not prematurely optimise, as well as an explanation of my tools and systems.
 featured: false
 draft: true
 topics:
