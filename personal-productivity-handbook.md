@@ -4,7 +4,7 @@ updatedDate: 2024-08-27
 title: Personal Productivity Handbook
 description: My guide to personal productivity, including a lesson to not prematurely optimise, as well as an explanation of my tools and systems.
 featured: false
-draft: true
+draft: false
 topics:
   - Productivity
 ---
@@ -38,24 +38,29 @@ Here are the tools I use and how they fit into my productivity system.
 ![My productivity system and tools](https://res.cloudinary.com/jonathan-yeong/image/upload/v1724762426/unsigned_obsidian_uploads/xa1rvda97wmaysurg9vx.png)
 ### Things (Apple only)
 [Things Website](https://culturedcode.com/things/)
+
 My to-do app of choice. Every morning, I'll spend 5 minutes going over any tasks in my "Anytime" section and move things I need to do to "Today". There's a handy shortcut `cmd + t` that will move things without me needing to drag and drop. Any tasks that come up during the day, I'll note in my inbox and forget about them until the next day. Tasks that I don't complete roll over to the next day. I try to keep my projects sparse, so I don't spend too much time deciding where a task should go.
 
 The killer feature I've been using is [Templates projects](https://culturedcode.com/things/support/articles/2693493/). From a template, you can use Apple Shortcuts/automation to have a recurring project. It's how to set up my weekly reset and review.
 
 ### Logseq (cross-platform)
 [Logseq website](https://logseq.com/)
+
 Logseq is where I capture thoughts. Thoughts that come into my head naturally fit a bullet point outliner format that Logseq provides. I don't spend too much time categorising my thoughts. I just dump everything into today's Daily Note. Being able to capture thoughts and learning is more important to me than organisation (for now). I also have my Logseq vault saved on iCloud, which means I can access Logseq on the go.
 
 ### Obsidian (cross-platform)
 [Obsidian website](https://obsidian.md/)
+
 I published a post about [writing blog posts with Obsidian](https://jonathanyeong.com/writing-blog-posts-with-obsidian/). It's my tool of choice when I want to synthesise thoughts.
 
 ### Physical Journal (most recent addition)
 [Leuchtturm1917 ruled A5](https://www.leuchtturm1917.ca/notebook-classic.html)
+
 Lately, I've taken up writing in a physical journal. I've been documenting my entrepreneur / multi-hyphenate journey. I write in the mornings, usually for 25 minutes. Although my handwriting is atrocious, I've found it helpful to get a thought out of my head and into the real world. Especially around self-doubt. As I write, I'm able to process that thought more deeply. And reading back over what I wrote, I can see it in a different light. I'm also forcing myself to write neatly, which slows me down. It makes me process my thoughts, and not just word vomit.
 
 ### Pomodoro timer (Flow.app)
 [Flow.app website](https://www.flow.app/)
+
 My final tool is a Pomodoro timer. I use Flow.app, which is free. But there are many other options out there. I stick with the standard 25-minute block with a 5-minute break. A pomodoro has been the best option I found (so far) to give me a short feedback loop. I've started measuring project progress in terms of pomodoros. It tells me that I've been putting the work in. And tells me when I've probably spent *too* long on a project.
 
 ---
