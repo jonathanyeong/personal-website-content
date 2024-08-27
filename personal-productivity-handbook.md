@@ -1,6 +1,6 @@
 ---
-pubDate: 2024-07-23
-updatedDate: 2024-07-23
+pubDate: 2024-08-27
+updatedDate: 2024-08-27
 title: Personal Productivity Handbook
 description: The rulebook that I need when I'm feeling productive
 featured: false
