@@ -1,7 +1,7 @@
 ---
 pubDate: 2024-08-27
 updatedDate: 2024-08-27
-title: Personal Productivity Handbook
+title: Minimalist Guide to Prod
 description: The rulebook that I need when I'm feeling productive
 featured: false
 draft: true
@@ -20,7 +20,7 @@ So here's a message for future me:
 
 You don't need to time block every minute, streamline your note-taking workflow, or invent a new way to track your projects.
 
-**You need to focus on putting in the work, above all else.**
+**Focus on putting in the work, above all else.**
 
 Spending time optimising productivity feels good. It feels like I'm making progress towards goals. But after all the decision-making, I end up with a system that takes too much effort to maintain. And eventually the energy to keep the system up dissipates along with my motivation to do the work.
 
@@ -35,7 +35,7 @@ I'm going to share what my system is below. But even as I'm writing it out, I re
 ## Productivity Tools & System
 Here are the tools I use and how they fit into my productivity system.
 
-![My productivity system and tools (listed in text below)](https://res.cloudinary.com/jonathan-yeong/image/upload/v1724760503/unsigned_obsidian_uploads/nlly33omwj7jpy2tjoto.png)
+![My productivity system and tools](https://res.cloudinary.com/jonathan-yeong/image/upload/v1724761636/unsigned_obsidian_uploads/fngqdl4mpdikilzityit.png)
 
 ### Things (Apple only)
 [Things Website](https://culturedcode.com/things/)
