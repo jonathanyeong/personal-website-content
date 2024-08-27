@@ -35,9 +35,7 @@ I'm going to share what my system is below. But even as I'm writing it out, I re
 ## Productivity Tools & System
 Here are the tools I use and how they fit into my productivity system.
 
-![My productivity system and tools](https://res.cloudinary.com/jonathan-yeong/image/upload/v1724762063/unsigned_obsidian_uploads/gsxcno9967gmctdj5twv.png)
-
-
+![My productivity system and tools](https://res.cloudinary.com/jonathan-yeong/image/upload/v1724762426/unsigned_obsidian_uploads/xa1rvda97wmaysurg9vx.png)
 ### Things (Apple only)
 [Things Website](https://culturedcode.com/things/)
 My to-do app of choice. Every morning, I'll spend 5 minutes going over any tasks in my "Anytime" section and move things I need to do to "Today". There's a handy shortcut `cmd + t` that will move things without me needing to drag and drop. Any tasks that come up during the day, I'll note in my inbox and forget about them until the next day. Tasks that I don't complete roll over to the next day. I try to keep my projects sparse, so I don't spend too much time deciding where a task should go.
