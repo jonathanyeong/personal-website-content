@@ -35,7 +35,8 @@ I'm going to share what my system is below. But even as I'm writing it out, I re
 ## Productivity Tools & System
 Here are the tools I use and how they fit into my productivity system.
 
-![My productivity system and tools](https://res.cloudinary.com/jonathan-yeong/image/upload/v1724761636/unsigned_obsidian_uploads/fngqdl4mpdikilzityit.png)
+![My productivity system and tools](https://res.cloudinary.com/jonathan-yeong/image/upload/v1724762063/unsigned_obsidian_uploads/gsxcno9967gmctdj5twv.png)
+
 
 ### Things (Apple only)
 [Things Website](https://culturedcode.com/things/)
