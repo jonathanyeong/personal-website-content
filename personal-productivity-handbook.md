@@ -6,10 +6,11 @@ description: The rulebook that I need when I'm feeling productive
 featured: false
 draft: true
 topics:
+  - Productivity
 ---
-Lately, I've been feeling extra energy to pursue my goals. If my motivation were a season, it would be summer right now. Sun is shining. High energy. Happy days. From experience, this energy doesn't always stay, and I want to make the most of it now. In this post, I want to share a lesson I learnt about productivity and motivation. As well as walk through my current productivity system. 
+Lately, I've been feeling extra energy to pursue my goals. If my motivation were a season, it would be summer right now. Sun is shining. High energy. Happy days. From experience, this energy doesn't always stay, and I want to make the most of it now. In this post, I want to share a lesson I learnt about productivity and motivation. As well as walk through my current productivity system.
 
-I've realised what drains my energy most is decision fatigue. Especially, decisions on *how* to be more productive. It sounds great on paper. If I can organise my *systems and workflows*, then I can 10x the amount of work I output. 
+I've realised what drains my energy most is decision fatigue. Especially, decisions on *how* to be more productive. It sounds great on paper. If I can organise my *systems and workflows*, then I can 10x the amount of work I output.
 
 However, if I spend all my energy organising, how much energy do I have left to create? If I create nothing, then what will 10x the amount of work equal? This lesson seems so obvious in retrospect, but I've fallen into the trap of working on my productivity efficiency over doing the actual work.
 
@@ -48,7 +49,7 @@ Logseq is where I capture thoughts. Thoughts that come into my head naturally fi
 
 ### Obsidian (cross-platform)
 [Obsidian website](https://obsidian.md/)
-I published a post about [writing blog posts with Obsidian](https://jonathanyeong.com/writing-blog-posts-with-obsidian/). It's my tool of choice when I want to synthesise thoughts. 
+I published a post about [writing blog posts with Obsidian](https://jonathanyeong.com/writing-blog-posts-with-obsidian/). It's my tool of choice when I want to synthesise thoughts.
 
 ### Physical Journal (most recent addition)
 [Leuchtturm1917 ruled A5](https://www.leuchtturm1917.ca/notebook-classic.html)
