@@ -1,6 +1,6 @@
 ---
 pubDate: 2024-06-30
-updatedDate: 2024-06-30
+updatedDate: 2024-08-31
 title: Setting up dev containers in Rails
 description: How to set up dev containers in Rails, issues I ran into along the way, and my initial thoughts
 featured: false
@@ -8,13 +8,32 @@ draft: false
 topics:
   - rails
 ---
+**Update**: Rails 7.2 is released with Rails devcontainer support. You can now run:
+
+```bash
+rails new myapp --devcontainer
+```
+
+If you want to add devcontainer to an existing rails app. You can run:
+
+```bash
+rails devcontainer
+```
+
+Which creates the devcontainer files for you:
+
+![output of running rails devcontainer. It figures out what libraries you use and creates the devcontainer folder and files for you.](https://res.cloudinary.com/jonathan-yeong/image/upload/v1725126469/unsigned_obsidian_uploads/pdf1bfzoym0gi0xme5pu.png)
+
+
+--- 
+
 [Development containers](https://containers.dev/), aka dev containers, have been around since 2019. Made by Microsoft, they allow you to use a container as a development environment. If you've used GitHub Codespaces, you've loaded a dev container. In Rails 7.2, there will be a new `devcontainer` flag that will generate a dev container folder for you. Ever since [I wrote about Rails dev containers](https://jonathanyeong.com/rails-dev-containers/), I've been eager to try them. If you also want to be an early adopter, here are a few issues I ran into.
 ## Installing libraries
 Before I can get dev containers working locally, I need to install a few libraries and extensions.
 
 [VSCode dev container extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers), which will run my application as a dev container inside VSCode.
 
-[Colima](https://github.com/abiosoft/colima), which is my container runtime. 
+[Colima](https://github.com/abiosoft/colima), which is my container runtime. [Docker Desktop](https://www.docker.com/products/docker-desktop/) is another option. Due to licensing I can't use Docker Desktop at work, which is why I use Colima.
 
 `brew install colima`
 
@@ -45,7 +64,10 @@ rails new dev-containers-app --main --database=mysql --devcontainer
 After opening the project in VSCode, you should get a popup asking if you want to `Reopen in container`. If you don't, you can use command palette (`cmd+shift+p` for mac) and type `dev container: Reopen in Container`.
 
 ## Issues with dev container
-When I first ran the dev container, the `bin/setup` step erroredr:
+
+**Update:** It looks like with the latest Rails release, these issues have been fixed.
+
+When I first ran the dev container, the `bin/setup` step errored:
 
 ```
 ActiveRecord::ConnectionNotEstablished: Can't connect to local server through socket '/tmp/mysql.sock'
