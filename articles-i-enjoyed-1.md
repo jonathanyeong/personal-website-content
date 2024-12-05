@@ -30,5 +30,5 @@ TIL how grep decides to buffer its output
 
 >Here’s how `grep` (and many other programs) decides to buffer its output:
 >  - Check if stdout is a terminal or not using the `isatty` function
-    - If it’s a terminal, use line buffering (print every line immediately as soon as you have it)
-    - Otherwise, use “block buffering” – only print data if you have at least 8KB or so of data to print
+>    - If it’s a terminal, use line buffering (print every line immediately as soon as you have it)
+>    - Otherwise, use “block buffering” – only print data if you have at least 8KB or so of data to print
