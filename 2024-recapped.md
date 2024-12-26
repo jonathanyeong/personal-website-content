@@ -18,23 +18,22 @@ I started off this year with a theme: **Independence**.
 
 For context, the past couple of years have been a rollercoaster with work. I survived multiple layoffs at Shopify. Only to have the product, I was working on, sold to another company. Then I survived layoffs at that company. Only to find that the team I was working on being dissolved and moved offshore. Throughout this time, I felt like I had no power over my life. 
 
-The goals I had were inspired by this theme. Here were my top goals:
+I wanted to own my own destiny, so I created some goals inspired by the theme. I have a more detailed list, but here are the most important ones:
 
 - Get a new job.
 - Start earning money on the side - freelance, or some other side hustle.
 - Create content again.
-- Find identity outside my day job.
 
 The most challenging part of this year was managing my energy. The first half was spent looking for a job. And in the second half, I had bursts of content (like my [30 day writing challenge](https://jonathanyeong.com/30-days-of-posts/)), followed by a long lull. 
 
 But I was able to accomplish a lot this year. Much more than last year!
 ## Achievements
 
-### I got a new job ✅
+### Got a new job ✅
 
 It was a slog of interviews for the first half of the year. But I landed a position on a Developer Experience (DevX) team. It's been great so far, I love working with an audience I care deeply about!
 
-### I created content ✅
+### Created content ✅
 
 Here are my top three most popular blog posts:
 
@@ -46,20 +45,17 @@ I also started a newsletter, [DX Dissected](https://dxdissected.com/). It's a fo
 
 Finally, I released my first YouTube video in a long while! Snuck it in right before the year-end. The video is about using Dev containers to prototype without needing to worry about managing dependencies! [Check it out](https://www.youtube.com/watch?v=6ILSqh0lnYk).
 
-### Find identity outside my day job 🤔.
+### Start earning money on the side ❌
 
-It's not a very achievable goal, but I've been making steps. I started journaling my side hustle journey on pen and paper. It's a nice way to slow down and process my thoughts. I've also noticed my handwriting becoming more readable over the entries. Common prompts I followed were:
+Big fat X for this goal. I have some ideas, but I also have a mental blocker. What value am I providing? And can I provide that value consistently? I haven't proven to myself that I can be consistent this year. So I'm focusing my energy on answering those questions first.
 
-- What is my current bottleneck?
-- How am I feeling?
-- What is exciting me right now?
+## New hobbies
+
+I started journaling my side hustle journey on pen and paper. It's a nice way to slow down and process my thoughts. I've also noticed my handwriting becoming more readable over the entries.
 
 I also picked up pottery! I made a few pieces that are actually usable, which I'm happily surprised about. Here's a pic of some pots I made.
 
 ![three pots I made, two bowls, and one cup. The cup holds liquid!](https://res.cloudinary.com/jonathan-yeong/image/upload/v1735224180/unsigned_obsidian_uploads/qoaqnxirojwkk8pxax2m.jpg)
-### Start earning money on the side ❌
-
-Big fat X for this goal. I have some ideas, but I also have a mental blocker. What value am I providing? And can I provide that value consistently? I haven't proven to myself that I can be consistent this year. So I'm focusing my energy on answering those questions first.
 
 ## What's to come in 2025
 
