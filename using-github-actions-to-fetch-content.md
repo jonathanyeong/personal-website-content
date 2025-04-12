@@ -2,7 +2,7 @@
 pubDate: 2024-06-05
 updatedDate: 2024-06-05
 title: Using Github Actions to fetch content
-description: How I use Github Actions to automate publishing posts
+description: My content lives in a private repository separated from the main website repository. It got annoying to manually keep changes in sync. Instead, I used Github Actions to automate publishing posts.
 featured: true
 draft: false
 topics:

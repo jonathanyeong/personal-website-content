@@ -2,7 +2,7 @@
 pubDate: 2024-06-19
 updatedDate: 2024-06-20
 title: Dynamic Nested Forms with Rails and Stimulus
-description: Tutorial on adding a button that will dynamically add extra nested form elements with Rails and Stimulus
+description: A guide on dynamically adding nested form elements using Stimulus.js and Rails. We'll cover the html and JS changes needed, as well as common gotchas.
 featured: true
 draft: false
 topics:

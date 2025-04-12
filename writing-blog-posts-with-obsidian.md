@@ -1,10 +1,10 @@
 ---
 pubDate: 2024-06-02
+updatedDate: 2025-04-12
 title: Writing blog posts with Obsidian
-description: How I use Obisidan to make my Markdown look pretty
+description: My end to end writing workflow for my blog using Obsidian as the main editor. From how I setup Obsidian for writing, image management, and automating git pushes.
 featured: true
 draft: false
-updatedDate: 2024-06-02
 topics:
   - writing
 ---
@@ -36,7 +36,7 @@ Obsidian has a built-in Template plugin that I use for all my posts. Learn more 
 
 I have a folder named `Templates` that contains a file `blog-post-template`. The template is common front matter I use for all my posts:
 
-```
+```yaml
 ---
 pubDate: {{date}}
 updatedDate: {{date}}
@@ -48,10 +48,21 @@ topics: []
 ---
 ```
 
+## Adding images to posts
+
+Initially, I added image by dropping the file into my Astro project than referencing the file in Obsidian. This is clunky for a couple of reasons.
+
+- My content is separate from my website. Meaning I have to sync git pushes to ensure my images aren't breaking on publish.
+- I have to jump back and forth between apps to get the image details.
+
+A better alternative is to drop a link to an image. Cloudinary is a popular tool to manage media, and there's a [Cloudinary Uploader plugin](https://jordanhandy.github.io/obsidian-cloudinary-uploader/) that will upload your image to cloudinary and return a link in one step.
+
+You do need a Cloudinary account and an API key, but after some setup it's been working flawlessly.
+
+## Pushing posts to Git
+
+After writing a post, I would switch to my terminal and run a few commands to push the post to the Git repository. Running these commands became anonying quickly. So I built a [small Obsidian plugin](https://github.com/jonathanyeong/obsidian-publish-post) that would run the git push for me!
+
 ## What's next?
 
-My main gripe with my workflow is media management. It's non-existent. I'd love to add more images or GIFs to my posts. But there are many steps to insert an image. There are also a few hoops I have to go through to publish a post. I added some automation to help, planning to write about that soon! Finally, I've been looking at using [TinaCMS](https://tina.io/), a headless CMS that can push to Git, more on that to come as well.
-
----
-
-UPDATE: I did some digging and I found a [Cloudinary Uploader for Obsidian plugin](https://jordanhandy.github.io/obsidian-cloudinary-uploader/). I'm super excited to try this.
+I've tried using [Tina CMS but unfortunately it didn't fit with my workflow](https://jonathanyeong.com/tina-cms-a-retrospective/). But moving to a CMS would be a logical next step. Media management is still a pain point. I also want to start building components to use in MDX files, and I know Obsidian won't handle that out of the box.

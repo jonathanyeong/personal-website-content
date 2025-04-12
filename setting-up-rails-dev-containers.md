@@ -2,7 +2,7 @@
 pubDate: 2024-06-30
 updatedDate: 2025-01-07
 title: Setting up dev containers in Rails
-description: How to set up dev containers in Rails, issues I ran into along the way, and my initial thoughts
+description: Development containers are an alternative to local development. You can have a dev ready environment running in minutes. Here's how we can set one up in Rails, issues I ran into along the way, and my initial thoughts.
 featured: true
 draft: false
 topics:
