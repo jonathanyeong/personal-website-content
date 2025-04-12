@@ -5,7 +5,8 @@ title: "Developer productivity with Github Codespaces"
 description: "My journey into improving my development workflow"
 featured: false
 draft: false
-topics: ["Productivity"]
+topics:
+  - DevX
 ---
 
 During my time at Shopify, I had the opportunity to work with a cloud development environment - and I was sold. Since then, I set out trying to recreate a similar experience for my personal development. Enter, [Github Codespaces](https://github.com/features/codespaces). I'd like to share my thoughts on using Codespaces and why I believe it will greatly benefit developer productivity.

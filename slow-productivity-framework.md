@@ -7,7 +7,6 @@ featured: false
 draft: false
 topics:
   - life
-  - Productivity
 ---
 Years ago, I was fully hooked to the world of productivity. At the time, I was getting up at the crack of dawn to get as much done. I used time blocking to try to maximise every hour of my day. Working a full-time job, then spending 4–5 hours outside the job working on various side projects. I would cut out any activity that I deemed "unproductive". And when something unexpected came along that interrupted my time block, it caused anxiety.
 
@@ -23,7 +22,7 @@ When I'm trying to decide what to do. I have to answer three questions:
 
 If I say yes to any one of these questions, I should do the thing and not feel guilty about doing it. Some activities are more worth doing than others, I can tell if it's a yes to multiple questions. But if it's a no to all questions, then I won't do the activity.
 
-Here's an example of how I applied the framework this morning. 
+Here's an example of how I applied the framework this morning.
 
 I woke up feeling refreshed, which rarely happens. I wanted to immediately start working on a side project before work. It's something that I would have fun with and learn something. Ticking two of the three questions. This task is something that I would consider productive.
 

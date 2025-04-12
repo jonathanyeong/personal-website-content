@@ -6,7 +6,7 @@ description: In this post, I share my definition of Developer experience, how we
 featured: false
 draft: false
 topics:
-  - devEx
+  - DevX
 ---
 For once, I'm excited about my job. I'm working on the Developer Experience (DevEx) team. I get to help other developers for a living! One of my first tasks is to understand the vibes with our current developer experience through a survey. But before I could start the survey, I had to learn some things.
 
@@ -31,13 +31,13 @@ The two metric frameworks I found were [DORA](https://docs.gitlab.com/ee/user/an
 
  DORA is focused on DevOps measures like deployment frequency, lead time for changes, change failure rate, and time to restore services. SPACE is all encompassing. DORA can be considered an instance of SPACE.
 
-From a recent [Engineering Enablement, podcast episode](https://getdx.com/podcast/dora-space-devex-choosing-framework/), 
+From a recent [Engineering Enablement, podcast episode](https://getdx.com/podcast/dora-space-devex-choosing-framework/),
 
 > "DORA presents at least a starting point... I see DORA metrics having been really successful is for organizations that are focused on DevOps transformation or who are going from batched releases to continuous delivery"
 
 For my DevEx measures, I'd rather not focus on DORA. There were other functions at my company that had these metrics. Instead, I wanted to answer these set of questions, inspired by SPACE.
 
-- What is the engineering onboarding experience like? Can we reduce errors with setup? 
+- What is the engineering onboarding experience like? Can we reduce errors with setup?
 - What does collaboration look like to you? Is it pairing, mentorship, both, or none?
 - How do you test your changes? Are you confident that what goes into production will work as expected?
 - How long does it take for a change to get pushed to production? How long is the feedback loop for you?
@@ -45,7 +45,7 @@ For my DevEx measures, I'd rather not focus on DORA. There were other functions 
 - What tooling are you missing? What prevents you from answering positively to the above questions?
 
 ## Building the survey
-The survey is segmented out by team, function (front end or back end), tenure, and level. I expanded the questions I shared above and gave them options based on the [Likert Scale](https://en.wikipedia.org/wiki/Likert_scale). Here's an example: 
+The survey is segmented out by team, function (front end or back end), tenure, and level. I expanded the questions I shared above and gave them options based on the [Likert Scale](https://en.wikipedia.org/wiki/Likert_scale). Here's an example:
 
 I have the tools necessary to get my work done
 *1 - strongly disagree, 2 - disagree, 3 - neither agree nor disagree, 4 - agree, 5 - strongly agree*

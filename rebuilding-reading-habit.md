@@ -6,10 +6,9 @@ description: "Tips on how to build a reading habit: make reading a priority, fig
 featured: false
 draft: false
 topics:
-  - career
-  - Productivity
+  - life
 ---
-I'm an atrocious reader of non-fiction articles or books. First off, I find myself constantly zoning out when reading a technical article. Secondly, I'm a sucker for instant gratification. I would rather clean the house for an hour then sit in a chair reading. For context, I do neither and watch YouTube instead. Those pottery videos aren't going to watch themselves. 
+I'm an atrocious reader of non-fiction articles or books. First off, I find myself constantly zoning out when reading a technical article. Secondly, I'm a sucker for instant gratification. I would rather clean the house for an hour then sit in a chair reading. For context, I do neither and watch YouTube instead. Those pottery videos aren't going to watch themselves.
 
 In the past few weeks, I committed to reading more. To quote a toddler, "why"?
 
@@ -22,10 +21,10 @@ The first step, and the only step that matters, is consistently making the time 
 
 When I have a busy day, reading used to get bumped into the "I don't have time for this" bucket. No more! I now carve out 10 minutes, non-negotiable, reading time in the morning. I do this after I wake up, and after I make coffee. For those habit nerds, I make reading part of a habit chain.
 
-10 minutes doesn't sound like much, but it's more then what I was doing a month ago. And the goal is to slowly up this amount of time. 
+10 minutes doesn't sound like much, but it's more then what I was doing a month ago. And the goal is to slowly up this amount of time.
 
 ## Figure out your reading vibe
-Since 10 minutes isn't a long time to read. I've found doing a vibe check at the start of a session a good way to get the most out of it. It sets myself up for a win and after the session I felt like I accomplished what I wanted. 
+Since 10 minutes isn't a long time to read. I've found doing a vibe check at the start of a session a good way to get the most out of it. It sets myself up for a win and after the session I felt like I accomplished what I wanted.
 
 These are my reading vibes:
 
@@ -43,12 +42,12 @@ Before diving into a deeply technical article. I prep my brain for learning. I'm
 
 To prep, I skim over the article to get the general gist of what is happening before I start reading it. After skimming, I write down everything I know (or think I know) about the concept.
 
-Then after I'm done with the reading session, I write down at least **one** thing that I learnt from the article. If I have time to write more, I'll write about new concepts I found out, how they relate to my existing knowledge, or if they challenge what I currently know. 
+Then after I'm done with the reading session, I write down at least **one** thing that I learnt from the article. If I have time to write more, I'll write about new concepts I found out, how they relate to my existing knowledge, or if they challenge what I currently know.
 
 I'll rinse and repeat this process until I've finished with the article. The end result are notes I can look back on, and an article that I fully comprehend.
 ## (Bonus) Curate your reading list
 My final tip is to be selective about what you read. There's so much content out there and not all content is the same. [Daily.dev ](https://dly.to/y69khDARDEa) is a good place to find new content. But it can get overwhelming if you don't follow the tags or collections you care about.
 
-Nothing has beaten an RSS feed for getting new content. My RSS reader is my best friend. And it helps me keep up to date with the people I look up to most. If you're curious, here's my [blogroll](https://raindrop.io/jonathanyeong/blogroll-50287458). 
+Nothing has beaten an RSS feed for getting new content. My RSS reader is my best friend. And it helps me keep up to date with the people I look up to most. If you're curious, here's my [blogroll](https://raindrop.io/jonathanyeong/blogroll-50287458).
 
 My reading habit is still a work in progress, these tips have been helping, but I have a ways to go before I complete the Goodreads Challenge. I hope these tips have been helpful. Happy reading!

@@ -4,6 +4,8 @@ title: "What is the right amount of testing?"
 description: "My opinions on good defaults to keep in mind when trying to understand the right amount of testing"
 featured: false
 draft: false
+topics:
+  - testing
 ---
 
 What is the right amount of testing?

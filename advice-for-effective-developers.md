@@ -6,7 +6,7 @@ description: In this post, I share advice that has made me a better developer. I
 featured: false
 draft: false
 topics:
-  - life
+  - growth
 ---
 Syntax FM released a podcast episode [11 habits of highly effective developers](https://syntax.fm/show/778/11-habits-of-highly-effective-developers/transcript) yesterday, it's filled with anecdotes, and great advice. If you haven't already, give it a listen! Scott Tolinksi and Wes Bos shared these 11 habits:
 

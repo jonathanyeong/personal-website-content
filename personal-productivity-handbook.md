@@ -6,7 +6,7 @@ description: My guide to personal productivity, including a lesson to not premat
 featured: false
 draft: false
 topics:
-  - Productivity
+  - life
 ---
 Lately, I've been feeling extra energy to pursue my goals. If my motivation were a season, it would be summer right now. Sun is shining. High energy. Happy days. From experience, this energy doesn't always stay, and I want to make the most of it now. In this post, I want to share a lesson I learnt about productivity and motivation. As well as walk through my current productivity system.
 

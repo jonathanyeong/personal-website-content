@@ -5,7 +5,8 @@ title: "Consistency is a lie"
 description: "A template"
 featured: false
 draft: true
-topics: []
+topics:
+  - life
 ---
 
 - Finding the energy to do things - I’m pushing hard to write ten blog posts this month. Not publish. Just have them written. I realized that after I “finish” something like publish a blog post. I end up coasting and it’s hard to get back to writing another one. Maybe the idea of consistently publishing just doesn’t work for me. Maybe I should work in seasons. Like every quarter I’ll load up on 10 blog posts that I can release throughout the quarter.

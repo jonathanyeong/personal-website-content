@@ -7,8 +7,6 @@ featured: false
 draft: false
 topics:
   - rails
-  - ruby
-  - Tutorials
 ---
 ## What I'm trying to achieve
 
@@ -33,7 +31,7 @@ class TrainingSession < ApplicationRecord
 end
 ```
 
-By default, nested attribute updating is turned off. With `accepts_nested_attributes_for` I'm able to create a Training Session and the Training Steps in one go. With this method, `TrainingSession` will now accept a key `training_steps_attributes` as a value. With `reject_if`,  it will also silently ignore any records that don't pass the lambda. 
+By default, nested attribute updating is turned off. With `accepts_nested_attributes_for` I'm able to create a Training Session and the Training Steps in one go. With this method, `TrainingSession` will now accept a key `training_steps_attributes` as a value. With `reject_if`,  it will also silently ignore any records that don't pass the lambda.
 
 ## 2. Adding the controller `new` method
 

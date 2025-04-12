@@ -6,7 +6,7 @@ description: "In this post, I share my theme of this year: independence, how I t
 featured: false
 draft: false
 topics:
-  - retrospective
+  - personal
 ---
 I love seeing people grow and overcome challenges. And at this time of year, I'm eating up all the 2024 wrapped posts I can find! It's fascinating seeing what people cared about throughout the year.
 
@@ -14,9 +14,9 @@ Without further ado, here's my year recapped.
 
 ## 2024 Goals and Theme
 
-I started off this year with a theme: **Independence**. 
+I started off this year with a theme: **Independence**.
 
-For context, the past couple of years have been a rollercoaster with work. I survived multiple layoffs at Shopify. Only to have the product, I was working on, sold to another company. Then I survived layoffs at that company. Only to find that the team I was working on being dissolved and moved offshore. Throughout this time, I felt like I had no power over my life. 
+For context, the past couple of years have been a rollercoaster with work. I survived multiple layoffs at Shopify. Only to have the product, I was working on, sold to another company. Then I survived layoffs at that company. Only to find that the team I was working on being dissolved and moved offshore. Throughout this time, I felt like I had no power over my life.
 
 I wanted to own my own destiny, so I created some goals inspired by the theme. I have a more detailed list, but here are the most important ones:
 
@@ -24,7 +24,7 @@ I wanted to own my own destiny, so I created some goals inspired by the theme. I
 - Start earning money on the side - freelance, or some other side hustle.
 - Create content again.
 
-The most challenging part of this year was managing my energy. The first half was spent looking for a job. And in the second half, I had bursts of content (like my [30 day writing challenge](https://jonathanyeong.com/30-days-of-posts/)), followed by a long lull. 
+The most challenging part of this year was managing my energy. The first half was spent looking for a job. And in the second half, I had bursts of content (like my [30 day writing challenge](https://jonathanyeong.com/30-days-of-posts/)), followed by a long lull.
 
 But I was able to accomplish a lot this year. Much more than last year!
 ## Achievements
@@ -66,7 +66,7 @@ After this year, I have more clarity with what I want my life to look like. Comm
 Building connection with people through communities. Both IRL and virtual. But also connection, in the form of building value for others. With this theme, I have some plans:
 
 - Invest more time building and taking part of communities (IRL and virtual)
-- Consume more content for ideas (not only for entertainment) 
+- Consume more content for ideas (not only for entertainment)
 	- Read technical books - 2 (baseline goal) to 4 (stretch goal).
 - Build and release production-grade apps - 1 (baseline goal) to 3 (stretch goal).
 - Create more content (as much as possible)

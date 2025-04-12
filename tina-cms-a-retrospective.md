@@ -6,12 +6,12 @@ description: A retrospective on trying to implement Tina CMS into my workflow
 featured: false
 draft: false
 topics:
-  - retrospective
+  - meta
 ---
 I decided to try [TinaCMS](https://tina.io/) (aka Tina). It's another headless CMS that supports Git. Perfect for my workflow! It has built in media management, it can validate metadata fields on a post, and it can push directly to your Git repo. Unfortunately, it didn't fit with my flow, as much as I wanted it to. Here are the challenges I faced, and why I ultimately decided not to use Tina.
 ## Separate content repo woes
 
-This blog consists of two repos; a website repo, and a content repo. The content repo is a flat folder with all my blog posts in Markdown. Luckily, TinaCMS works with a [separate content repo](https://tina.io/guides/tinacms/separate-content-repo/guide/). When you set up Tina, you add a `tina` folder that contains configuration for Tina cloud to read. This configuration is where you specify the metadata of your blog posts, the path to your content, among a few other settings. 
+This blog consists of two repos; a website repo, and a content repo. The content repo is a flat folder with all my blog posts in Markdown. Luckily, TinaCMS works with a [separate content repo](https://tina.io/guides/tinacms/separate-content-repo/guide/). When you set up Tina, you add a `tina` folder that contains configuration for Tina cloud to read. This configuration is where you specify the metadata of your blog posts, the path to your content, among a few other settings.
 
 Something that the docs don't mention is the requirement to have a `tina` folder in both the website repo, and the content repo. When you run `tinacms build` it will generate some files in your `tina` folder in the content repo. Unfortunately, this folder does not play nicely with AstroJS if you're using [content collections](https://docs.astro.build/en/guides/content-collections/). Including this folder caused the following error:
 

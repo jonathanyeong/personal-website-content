@@ -7,7 +7,6 @@ featured: false
 draft: false
 topics:
   - Phoenix
-  - Tutorials
 ---
 **⚠️ This post may contain outdated content**
 
@@ -173,4 +172,4 @@ If you wanted to manually run your workflow you will have to click into the work
 
 ## What's next
 
-Now every time you commit your code your tests will run and you will be notified if anything broke! The next evolution would be to automatically deploy our application to production (continuous deployment). 
+Now every time you commit your code your tests will run and you will be notified if anything broke! The next evolution would be to automatically deploy our application to production (continuous deployment).

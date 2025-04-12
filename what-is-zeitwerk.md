@@ -7,9 +7,9 @@ featured: false
 draft: false
 topics:
   - ruby
-  - backend
 ---
-[Zeitwerk](https://github.com/fxn/zeitwerk) is a gem that loads Ruby files. From Rails 6, Zeitwerk is the default loader. Loading a Ruby file means making that file available in your code. There are a few ways to do this with Ruby, `require`, `require_relative`, `load`. Zeitwerk removes the need to add these special keywords and does the loading for you. It can load files on demand (autoloading) or upfront (eager loading). 
+
+[Zeitwerk](https://github.com/fxn/zeitwerk) is a gem that loads Ruby files. From Rails 6, Zeitwerk is the default loader. Loading a Ruby file means making that file available in your code. There are a few ways to do this with Ruby, `require`, `require_relative`, `load`. Zeitwerk removes the need to add these special keywords and does the loading for you. It can load files on demand (autoloading) or upfront (eager loading).
 
 Zeitwerk works by following naming conventions. The idea is that file paths match the constant name.  From Zeitwerk's README:
 

@@ -7,7 +7,6 @@ featured: false
 draft: false
 topics:
   - life
-  - Productivity
 ---
 When I first join a company, I need some sort of structure. I feel like there's an ocean of information, and I'm told to start rowing. It's overwhelming to know where to start.
 
@@ -22,7 +21,7 @@ To help me feel like I'm progressing, I've made my own personal onboarding check
 - [ ] Set up a recurring 1-1 with my manager (hopefully they do it)
 - [ ] Read through the company career ladder, understand what's required from me. Summarise these points and share it with my manager in our first 1-1.
 	- [ ] Understand what my manager *thinks* success looks like
-- [ ] Set up the application locally, run it, and click around the interface. 
+- [ ] Set up the application locally, run it, and click around the interface.
 - [ ] Have someone take me through the application. At a high level, happy path flow, understand how a user uses the application.
 	- [ ] Perform user actions myself, after the meeting. I wish to see what are the critical classes, any logging, and what the data looks like in the database.
 - [ ] Get access to staging and production data. I want to see what real-world data looks like.

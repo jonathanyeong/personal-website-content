@@ -6,17 +6,16 @@ description: It's the end of my 30 days of post challenge and I wanted to write 
 featured: false
 draft: false
 topics:
-  - life
-  - writing
+  - Personal
 ---
 Today marks the end of my [30 days of posts challenge](https://jonathanyeong.com/30-days-of-posts/). Phew, it's been a journey. I did miss two days of posts. But I was also able to get back to posting after I had broken my streak. I honestly thought I would run out of things to say after the first week. So I'm happy that I made it through the 30 days.
 
 What did I enjoy about the challenge?
 
-- The little voice in my head that tells me my posts are dumb was drowned out because of the time constraints. I wonder if that voice will be louder now. 
+- The little voice in my head that tells me my posts are dumb was drowned out because of the time constraints. I wonder if that voice will be louder now.
 - Having my blog become a playground of ideas and exploration was really fun. No idea was too small to write about. And making mistakes was okay!
 - Finding ways to optimise my posting workflow. I doubled down on Obsidian, introduced some GitHub actions, and found faster ways to write.
-- I also loved not "marketing" my posts. I didn't post on social media, and I didn't think about SEO at all. I wanted to optimise writing rather than views. 
+- I also loved not "marketing" my posts. I didn't post on social media, and I didn't think about SEO at all. I wanted to optimise writing rather than views.
 
 Some struggles during the challenge:
 

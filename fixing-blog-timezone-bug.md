@@ -7,7 +7,7 @@ featured: false
 draft: false
 topics:
   - Astrojs
-  - changelog
+	- javascript
 ---
 
 I noticed a weird bug on my blog the other day. The dates that I set in my blog post metadata didn't line up with the dates that I saw on the page. It was always a day off. For example, the front matter for my blog post showed days:
@@ -29,12 +29,12 @@ This bug felt like a timezone error. It's weird that it was off by one day. But 
 
 I console logged `pubDate` and `updatedDate` everywhere and I got these values:
 
-```   
+```
 updatedDate is: 2023-07-10T00:00:00.000Z
 pubDate is: 2023-07-11T00:00:00.000Z
 ```
 
-Which meant I wasn't doing some weird conversion when pulling out the metadata from my blog post. 
+Which meant I wasn't doing some weird conversion when pulling out the metadata from my blog post.
 
 The only place where it was changing the date was in this snippet:
 
@@ -60,14 +60,14 @@ const formatDate = (date: Date) => {
 	const monthIndex = 2;
 	const dayIndex = 1;
 	const yearIndex = 3;
-	
+
 	return `${dateParts[monthIndex]} ${dateParts[dayIndex]}, ${dateParts[yearIndex]}`
 }
 ```
 
 It's not pretty but it works without needing to pull in another library. If I wanted to have fancier date formatting I could use something like [date-fns](https://date-fns.org/). But I found a gotcha with date-fns
 
-> Since `date-fns` always returns a plain JS Date, which implicitly has the current system's time zone, helper functions are needed for handling common time zone related use cases. ([source](https://date-fns.org/v2.30.0/docs/Time-Zones))  
+> Since `date-fns` always returns a plain JS Date, which implicitly has the current system's time zone, helper functions are needed for handling common time zone related use cases. ([source](https://date-fns.org/v2.30.0/docs/Time-Zones))
 
 So if I wanted to display a UTC time on my current system which is set to EST. Then I would need to pull in [date-fns-tz](https://github.com/marnusw/date-fns-tz) instead. This library lets me specify which IANA timezone and uses [the Intl API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl). Here's what that change would look like:
 

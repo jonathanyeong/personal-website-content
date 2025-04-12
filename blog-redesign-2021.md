@@ -5,6 +5,8 @@ title: "Redesigning my Blog: 2021"
 description: "A walkthrough of how this site is built! From the inception to switching it on in production"
 featured: false
 draft: false
+topics:
+  - backstage
 ---
 
 What will you learn:

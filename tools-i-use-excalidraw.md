@@ -6,11 +6,11 @@ description: Sharing my favourite whiteboarding tool
 featured: false
 draft: false
 topics:
-  - Productivity
+  - Tooling
 ---
-My brain is terrible at visualizing and tracking how various concepts fit together. [Excalidraw](https://excalidraw.com/) helps make my brain be better. It's a **free** low-fidelity whiteboarding tool that I've been using for system design interviews, brainstorming, flow diagrams, wireframe/mockups. Anything that I used to draw on a piece of paper is now being done in Excalidraw. It has basically everything you need to diagram, and if you need more, there is a plugin library to get extra shapes. 
+My brain is terrible at visualizing and tracking how various concepts fit together. [Excalidraw](https://excalidraw.com/) helps make my brain be better. It's a **free** low-fidelity whiteboarding tool that I've been using for system design interviews, brainstorming, flow diagrams, wireframe/mockups. Anything that I used to draw on a piece of paper is now being done in Excalidraw. It has basically everything you need to diagram, and if you need more, there is a plugin library to get extra shapes.
 
-The low fidelity look and feel reduces the friction of creating diagrams. I don't need to worry about perfection, I can slap together a few shapes add some text, and I've mapped out what was in my head. 
+The low fidelity look and feel reduces the friction of creating diagrams. I don't need to worry about perfection, I can slap together a few shapes add some text, and I've mapped out what was in my head.
 
 Here are a couple of random things I've made in Excalidraw:
 
