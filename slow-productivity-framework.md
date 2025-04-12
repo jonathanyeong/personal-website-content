@@ -6,7 +6,7 @@ description: Sharing my journey from toxic productivity to embracing the Slow Pr
 featured: false
 draft: false
 topics:
-  - life
+  - personal
 ---
 Years ago, I was fully hooked to the world of productivity. At the time, I was getting up at the crack of dawn to get as much done. I used time blocking to try to maximise every hour of my day. Working a full-time job, then spending 4–5 hours outside the job working on various side projects. I would cut out any activity that I deemed "unproductive". And when something unexpected came along that interrupted my time block, it caused anxiety.
 
