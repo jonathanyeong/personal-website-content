@@ -2,11 +2,10 @@
 pubDate: 2024-06-02
 title: Writing blog posts with Obsidian
 description: How I use Obisidan to make my Markdown look pretty
-featured: false
+featured: true
 draft: false
 updatedDate: 2024-06-02
 topics:
-  - Productivity
   - writing
 ---
 

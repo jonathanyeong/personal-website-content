@@ -3,7 +3,7 @@ pubDate: 2024-06-30
 updatedDate: 2025-01-07
 title: Setting up dev containers in Rails
 description: How to set up dev containers in Rails, issues I ran into along the way, and my initial thoughts
-featured: false
+featured: true
 draft: false
 topics:
   - rails
@@ -24,9 +24,9 @@ Docker to run my containers.
 
 `brew install docker`
 
-Docker compose, which is needed to run the dev container `compose.yaml` file. 
+Docker compose, which is needed to run the dev container `compose.yaml` file.
 
-`brew install docker-compose` 
+`brew install docker-compose`
 
 I also updated my `~/.docker/config.json` to add the plugin
 
@@ -105,7 +105,7 @@ mysql:
 	- '3306:3306'
 ```
 
-Rebuild your devcontainer and you should be able to connect to your DB using sequel ace or DBeaver. 
+Rebuild your devcontainer and you should be able to connect to your DB using sequel ace or DBeaver.
 
 ### Can't connect to local server through socket
 **Update:** It looks like with the latest Rails release, these issues have been fixed.

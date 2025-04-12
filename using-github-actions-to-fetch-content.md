@@ -3,11 +3,9 @@ pubDate: 2024-06-05
 updatedDate: 2024-06-05
 title: Using Github Actions to fetch content
 description: How I use Github Actions to automate publishing posts
-featured: false
+featured: true
 draft: false
 topics:
-  - Tutorials
-  - Productivity
   - automation
 ---
 I recently added more automation around my blog post publishing workflow. Previously, I shared how I use [Obsidian to write blog posts](https://jonathanyeong.com/writing-blog-posts-with-obsidian/). In this post, I want to show you what automation I've added to help publish a post.
@@ -15,7 +13,7 @@ I recently added more automation around my blog post publishing workflow. Previo
 Before I dive in, I need to provide some context. This site is separated into two repos. A [website repo](https://github.com/jonathanyeong/personal-website), that's where all the AstroJS goodness lives. And then a [content repo](https://github.com/jonathanyeong/personal-website-content), that's where all my posts live. The content repo is a Git submodule inside the website repo. These two are separated for a few reasons:
 
 - I can keep my content commits separate from my website commits.
-- I have dedicated version control over my content. 
+- I have dedicated version control over my content.
 - I have visibility controls over my content. Meaning, I can set my content to provide if I ever wanted to.
 
 Unfortunately, with two separate repos, I have a few extra steps to publish. I need to push the new post to the content repo. Then pull in those changes to the website repo, before pushing again.
@@ -35,7 +33,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Trigger parent repository update 
+      - name: Trigger parent repository update
         run: |
           curl -XPOST https://api.github.com/repos/jonathanyeong/personal-website/dispatches \
           -H 'Accept: application/vnd.github+json' \
