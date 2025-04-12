@@ -6,8 +6,7 @@ description: I had a bug on my blog where the published date displayed was diffe
 featured: false
 draft: false
 topics:
-  - Astrojs
-	- javascript
+  - javascript
 ---
 
 I noticed a weird bug on my blog the other day. The dates that I set in my blog post metadata didn't line up with the dates that I saw on the page. It was always a day off. For example, the front matter for my blog post showed days:
@@ -40,11 +39,11 @@ The only place where it was changing the date was in this snippet:
 
 ```javascript
 {
-	date.toLocaleDateString('en-us', {
-		year: 'numeric',
-		month: 'short',
-		day: 'numeric',
-	})
+  date.toLocaleDateString('en-us', {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+  })
 }
 ```
 
@@ -56,12 +55,12 @@ Unfortunately, there didn't seem like an easy way to keep the UTC timezone when 
 
 ```javascript
 const formatDate = (date: Date) => {
-	const dateParts = date.toUTCString().split(" ");
-	const monthIndex = 2;
-	const dayIndex = 1;
-	const yearIndex = 3;
+  const dateParts = date.toUTCString().split(" ");
+  const monthIndex = 2;
+  const dayIndex = 1;
+  const yearIndex = 3;
 
-	return `${dateParts[monthIndex]} ${dateParts[dayIndex]}, ${dateParts[yearIndex]}`
+  return `${dateParts[monthIndex]} ${dateParts[dayIndex]}, ${dateParts[yearIndex]}`
 }
 ```
 
@@ -75,7 +74,7 @@ So if I wanted to display a UTC time on my current system which is set to EST. T
 import { formatInTimeZone } from 'date-fns-tz'
 
 const formatDate = (date: Date) => {
-	return formatInTimeZone(date, 'Etc/UTC', 'MMM dd, yyyy');
+  return formatInTimeZone(date, 'Etc/UTC', 'MMM dd, yyyy');
 }
 ```
 
