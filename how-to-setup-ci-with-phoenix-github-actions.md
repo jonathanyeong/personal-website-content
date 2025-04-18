@@ -6,7 +6,7 @@ description: Tutorial on getting CI set up with Phoenix and Github Actions. Test
 featured: false
 draft: false
 topics:
-  - Phoenix
+  - tutorial
 ---
 **⚠️ This post may contain outdated content**
 
