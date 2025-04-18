@@ -6,7 +6,7 @@ description: Quick demo on how I schedule posts with AstroJS
 featured: false
 draft: false
 topics:
-  - Astrojs
+  - tutorial
 ---
 Before going on a trip this weekend, I wrote multiple posts so I didn't need to write on my trip. However, to keep my writing streak, I had to manually release posts by setting their draft property to `false`. That sucked. Today I released scheduling posts so I don't need to go through this pain again. Here's how I did it.
 

@@ -6,7 +6,7 @@ description: A guide on dynamically adding nested form elements using Stimulus.j
 featured: true
 draft: false
 topics:
-  - rails
+  - tutorials
 ---
 I've been away from Ruby on Rails for a [couple of years](https://jonathanyeong.com/what-i-missed-about-ruby/). And in that time, Rails introduced [Hotwire](https://hotwired.dev/), and [Stimulus](https://stimulus.hotwired.dev/). In this post, I extend my [Rails nested from tutorial](https://jonathanyeong.com/what-i-missed-about-ruby/) by adding a button to dynamically add new nested form elements using a [Stimulus Nested Form component](https://www.stimulus-components.com/docs/stimulus-rails-nested-form/).
 

@@ -6,7 +6,7 @@ description: I should know better then to assume my code works
 featured: false
 draft: false
 topics:
-  - testing
+  - career
 ---
 Last year, I added a [comments feature to my blog](https://jonathanyeong.com/changelog-added-comments-to-blog/). During development, I verified the change by checking that the comments section existed on a post. It did, #shipit. After almost a year, someone told me that their comments and reactions weren't showing. It turns out that I had set up [Giscus](https://giscus.app/) incorrectly from the start 😫! And if that person hadn't said anything, I would've been clueless.
 

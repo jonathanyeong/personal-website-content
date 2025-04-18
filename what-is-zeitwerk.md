@@ -6,7 +6,7 @@ description: A note on Zeitwerk, a code loader for Ruby.
 featured: false
 draft: false
 topics:
-  - ruby
+  - documentation
 ---
 
 [Zeitwerk](https://github.com/fxn/zeitwerk) is a gem that loads Ruby files. From Rails 6, Zeitwerk is the default loader. Loading a Ruby file means making that file available in your code. There are a few ways to do this with Ruby, `require`, `require_relative`, `load`. Zeitwerk removes the need to add these special keywords and does the loading for you. It can load files on demand (autoloading) or upfront (eager loading).

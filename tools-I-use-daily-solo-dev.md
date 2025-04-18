@@ -6,7 +6,7 @@ description: All the tools that I use on a daily basis as a solo dev
 featured: false
 draft: false
 topics:
-  - Tooling
+  - reflection
 ---
 I was inspired by [Nick Taylor's post "Tools that keep me productive"](https://dev.to/nickytonline/tools-that-keep-me-productive-1no5), to document tools I use daily. These tools help me build and showcase projects, stay organised, and keep me productive. Most of these tools are cross-platform, at least between macOS and Linux.
 

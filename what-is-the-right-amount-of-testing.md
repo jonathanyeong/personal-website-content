@@ -5,7 +5,7 @@ description: "My opinions on good defaults to keep in mind when trying to unders
 featured: false
 draft: false
 topics:
-  - testing
+  - career
 ---
 
 What is the right amount of testing?

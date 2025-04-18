@@ -6,7 +6,7 @@ description: A retrospective on trying to implement Tina CMS into my workflow
 featured: false
 draft: false
 topics:
-  - meta
+  - reflection
 ---
 I decided to try [TinaCMS](https://tina.io/) (aka Tina). It's another headless CMS that supports Git. Perfect for my workflow! It has built in media management, it can validate metadata fields on a post, and it can push directly to your Git repo. Unfortunately, it didn't fit with my flow, as much as I wanted it to. Here are the challenges I faced, and why I ultimately decided not to use Tina.
 ## Separate content repo woes

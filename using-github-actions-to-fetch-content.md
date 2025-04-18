@@ -6,7 +6,7 @@ description: My content lives in a private repository separated from the main we
 featured: true
 draft: false
 topics:
-  - automation
+  - tutorial
 ---
 I recently added more automation around my blog post publishing workflow. Previously, I shared how I use [Obsidian to write blog posts](https://jonathanyeong.com/writing-blog-posts-with-obsidian/). In this post, I want to show you what automation I've added to help publish a post.
 

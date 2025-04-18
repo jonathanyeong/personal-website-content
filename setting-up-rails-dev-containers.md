@@ -6,7 +6,7 @@ description: Development containers are an alternative to local development. You
 featured: true
 draft: false
 topics:
-  - rails
+  - tutorial
 ---
 [Development containers](https://containers.dev/), aka dev containers, have been around since 2019. Made by Microsoft, they allow you to use a container as a development environment. If you've used GitHub Codespaces, you've loaded a dev container. In Rails 7.2, there will be a new `devcontainer` flag that will generate a dev container folder for you. Ever since [I wrote about Rails dev containers](https://jonathanyeong.com/rails-dev-containers/), I've been eager to try them. If you also want to be an early adopter, here are a few issues I ran into.
 ## Installing libraries

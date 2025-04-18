@@ -6,7 +6,7 @@ description: Burnout sucks, and I found it hard to spot when I was going through
 featured: false
 draft: false
 topics:
-  - personal
+  - reflection
 ---
 Burnout really sneaked up on me. Would not recommend 0/10.
 

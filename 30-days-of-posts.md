@@ -6,7 +6,7 @@ description: I was inspired to try writing a daily blog post for 30 days
 featured: false
 draft: false
 topics:
-  - Personal
+  - reflection
 ---
 
 I came across [this blog post](https://rachsmith.com/weblogpomo/) by Rach Smith where they talk about Weblog Posting month. A challenge in May where you post on your blog every day. I love this idea. I haven't posted on my blog very consistently, mostly due to feeling [burnt out](https://jonathanyeong.com/burnout-is-a-sneaky-bugger/). So the challenge of posting every day is inspiring! I loved reading through Rach's posts because they range from technical content to personal thoughts or anecdotes. It makes me feel better about posting whatever.

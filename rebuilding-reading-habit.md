@@ -6,7 +6,7 @@ description: "Tips on how to build a reading habit: make reading a priority, fig
 featured: false
 draft: false
 topics:
-  - life
+  - reflection
 ---
 I'm an atrocious reader of non-fiction articles or books. First off, I find myself constantly zoning out when reading a technical article. Secondly, I'm a sucker for instant gratification. I would rather clean the house for an hour then sit in a chair reading. For context, I do neither and watch YouTube instead. Those pottery videos aren't going to watch themselves.
 

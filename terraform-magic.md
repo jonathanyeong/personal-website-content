@@ -6,7 +6,7 @@ description: I'm learning about Terraform and it's all magic to me
 featured: false
 draft: false
 topics:
-  - infrastructure
+  - documentation
 ---
 
 I'm learning about [Terraform](https://developer.hashicorp.com/terraform), and it's all magic to me right now. I know that Terraform is an Infrastructure as Code (IaC) tool. The alternative to IaC is clicking around GUIs to create your infrastructure. I'm not going to lie, the AWS UI is overwhelming. Also, it's basically all acronyms, and [I hate acronyms](https://www.inc.com/jeff-steen/why-you-should-stop-using-acronyms-right-now.html).

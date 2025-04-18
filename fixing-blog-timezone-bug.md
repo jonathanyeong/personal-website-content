@@ -6,7 +6,7 @@ description: I had a bug on my blog where the published date displayed was diffe
 featured: false
 draft: false
 topics:
-  - javascript
+  - tutorial
 ---
 
 I noticed a weird bug on my blog the other day. The dates that I set in my blog post metadata didn't line up with the dates that I saw on the page. It was always a day off. For example, the front matter for my blog post showed days:

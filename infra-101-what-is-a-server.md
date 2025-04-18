@@ -6,7 +6,7 @@ description: Beginning my infrastructure journey from the very basics. Let's tal
 featured: false
 draft: false
 topics:
-  - infrastructure
+  - documentation
 ---
 You've been working hard on a Rails application. It's living on your local machine, but now you're ready to show the world. What's next?
 

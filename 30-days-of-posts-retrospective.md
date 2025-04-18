@@ -6,7 +6,7 @@ description: It's the end of my 30 days of post challenge and I wanted to write 
 featured: false
 draft: false
 topics:
-  - Personal
+  - personal
 ---
 Today marks the end of my [30 days of posts challenge](https://jonathanyeong.com/30-days-of-posts/). Phew, it's been a journey. I did miss two days of posts. But I was also able to get back to posting after I had broken my streak. I honestly thought I would run out of things to say after the first week. So I'm happy that I made it through the 30 days.
 

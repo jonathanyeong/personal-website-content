@@ -6,7 +6,7 @@ description: Sharing some articles that I've enjoyed reading recently
 featured: false
 draft: false
 topics:
-  - personal
+  - reflection
 ---
 I'm trying to read more these days, and I wanted to share some posts that I enjoyed recently. If there's an article you think I should read or a blog I should follow, leave a comment or find me on [Bluesky](https://bsky.app/profile/jonathanyeong.com).
 

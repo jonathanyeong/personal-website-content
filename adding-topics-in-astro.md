@@ -5,7 +5,7 @@ description: "A short how to guide on adding topics to your Astro site. Part of 
 featured: false
 draft: false
 topics:
-  - astrojs
+  - tutorial
 ---
 
 This month's Virtual Coffee challenge is [Build in Public](https://dev.to/virtualcoffee/join-virtual-coffee-for-the-build-in-public-the-power-of-daily-standup-and-demo-challenge-35kb). And I wanted to kick things off with some website updates. I've been meaning to add tags to my site for a long time. After poking around at other people's sites, I decided to switch from the concept of tagging to the concept of topics. While the naming is different the process to adding topics was the same. In this post I want to share how I added topics, what I learnt, and what's next.

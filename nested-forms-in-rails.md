@@ -6,7 +6,7 @@ description: Quick tutorial on how to build nested forms in Rails
 featured: false
 draft: false
 topics:
-  - rails
+  - tutorial
 ---
 ## What I'm trying to achieve
 

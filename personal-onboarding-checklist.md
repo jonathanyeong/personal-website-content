@@ -6,7 +6,7 @@ description: My onboarding checklist that I've been using over the past few jobs
 featured: false
 draft: false
 topics:
-  - personal
+  - career
 ---
 When I first join a company, I need some sort of structure. I feel like there's an ocean of information, and I'm told to start rowing. It's overwhelming to know where to start.
 

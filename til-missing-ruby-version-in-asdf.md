@@ -6,7 +6,7 @@ description: "TIL: how to fix missing Ruby versions in asdf"
 featured: false
 draft: false
 topics:
-  - ruby
+  - tutorial
 ---
 I use [asdf](https://asdf-vm.com/) to manage my Ruby versions. It's a version manager that can manage multiple languages. Meaning I don't need to install a separate Ruby version manager with a Node version manager, for example.
 

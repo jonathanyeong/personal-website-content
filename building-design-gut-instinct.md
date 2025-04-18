@@ -6,13 +6,13 @@ description: A guide to building your design gut instinct. And why having this i
 featured: false
 draft: false
 topics:
-  - UI design
+  - career
 ---
 Ever looked at a website and thought "wow, that's beautiful" but couldn't explain why? That's where design gut instinct comes in.
 
 This is a tip from [Learn UI Design](https://www.learnui.design/), a design course I'm taking. To be clear, I most definitely am not a UI design expert! There's always something lacking in my own designs that I can't quite put my finger on.
 
-Sure, I could use a UI library like Bootstrap to quickly create a good-looking site and save countless hours of learning what's basically a new career. But sites that use these libraries have a template-y "smell". 
+Sure, I could use a UI library like Bootstrap to quickly create a good-looking site and save countless hours of learning what's basically a new career. But sites that use these libraries have a template-y "smell".
 
 I want to design rad sites that make someone go "ooohhh pretty". And to do that, I'm working to improve my gut instinct.
 
@@ -26,7 +26,7 @@ Here's how you can do it too:
 
 Having done this process for a handful of sites, I can tell I know more about design today than I did a week ago. Each analysis takes me about 10-15 minutes, and after a few sites I start seeing patterns emerge. And even though I don't know all the design-y words, I write down what I feel when I see something I like.
 
-Let me share a concrete example. 
+Let me share a concrete example.
 
 While looking at [Fly.io](https://fly.io/), I loved the header font. It was a serif font (Mackinac) that, for me, evoked a sense of trustworthiness but also whimsy.
 

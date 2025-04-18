@@ -6,7 +6,7 @@ description: "In this post, I share my theme of this year: independence, how I t
 featured: false
 draft: false
 topics:
-  - personal
+  - reflection
 ---
 I love seeing people grow and overcome challenges. And at this time of year, I'm eating up all the 2024 wrapped posts I can find! It's fascinating seeing what people cared about throughout the year.
 

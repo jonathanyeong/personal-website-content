@@ -6,7 +6,7 @@ description: I had a 2 year break from Ruby, and I have so many things that I mi
 featured: false
 draft: false
 topics:
-  - ruby
+  - reflection
 ---
 I'm back in Ruby on Rails land after two years using only Node/TS. And I'm thrilled to be back! I feel like I missed so much progress with Rails 7 over the last 2 years. But now that I'm back, I can finally use all the things I missed. Here's all the things that I took for granted before my break:
 

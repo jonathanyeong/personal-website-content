@@ -5,7 +5,7 @@ description: "A tutorial on getting excerpts into 11ty."
 featured: false
 draft: false
 topics:
-  - 11ty
+  - tutorial
 ---
 
 **Update**: I opened a [Github issue](https://github.com/11ty/eleventy/issues/1380) for this all the way back in Aug 2020. Here's a better approach then mine ([linked comment](https://github.com/11ty/eleventy/issues/1380#issuecomment-698457560)):
