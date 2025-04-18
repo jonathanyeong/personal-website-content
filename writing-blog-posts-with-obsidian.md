@@ -6,7 +6,7 @@ description: My end to end writing workflow for my blog using Obsidian as the ma
 featured: true
 draft: false
 topics:
-  - writing
+  - tutorial
 ---
 
 I've been writing a lot of Markdown lately. And I have two thoughts:
