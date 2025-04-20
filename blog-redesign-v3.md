@@ -11,18 +11,19 @@ topics:
 
 After a months-long redesign with some stops and starts, I'm psyched to finally share my new site with you!
 
-I'm a sucker for behind the scenes posts. I love reading them. I love writing them. I was particularly inspired by the Redesigning Piccalilli series. So I thought it would be interesting to go over my goals for the design, the design process, and key moments in the build.
+I'm a sucker for behind the scenes posts. I love reading them. I love writing them. I was particularly inspired by the [Redesigning Piccalilli](https://piccalil.li/blog/redesigning-piccalilli-the-first-part-of-the-design-process/) series. So I thought it would be interesting to go over my goals for the design, the design process, and key moments in the build.
 
 ## Goals for the design
 
 Before jumping into Figma, I wrote down some goals for the redesign.
 
 1. The main purpose of this site is a blog. Posts should be easy to read and discover, with a touch of personal curation (recommended or featured posts).
-2. I want something that's personal and friendly. I'd like it to be minimal but not too much where information is hidden. With a focus on typography, splashes of colour maybe something green.
-3. Newsletter CTA. I'd love to have more people find my newsletter.
-4. A design I can build in a reasonable amount of time, and extensible in the future.
+2. I want a site that's personal and friendly yet clean and minimal - but not so minimal that it's boring.
+3. Big type (for my old man eyes), splashes of colour maybe something green.
+4. Newsletter CTA. I'd love to have more people find my newsletter.
+5. A design I can build in a reasonable amount of time, and extensible in the future.
 
-I also stuck with [Astro](https://astro.build/) because working with it has been a joy.
+Overall, I'm happy with the result of the redesign. Achieving the second goal is the hardest challenge. Creating something personal and friendly while also being minimal seems like a contradiction. I'm already thinking of changes to the design to bring more personality to it in the future.
 ## Design Phase
 
 During the design phase, I had three design iterations. The first iteration I finished at the end of 2024. The last I finished sometime last month.
@@ -51,13 +52,12 @@ One thing I love about Figma is how easy it is to preserve your iteration proces
 
 During the build phase, I deviated a little from my design. Thankfully, I don't need to be perfect during design because I'm the one building it.
 
-I want to highlight some key changes in this build. But before I can get cracking. I have to undo my past decisions:
+Before I highlight some key changes in this build, I need to undo my past decisions:
 
-- I removed Tailwind and rolled my own CSS. No shade against Tailwind. But I want to learn CSS, not Tailwind.
-- I reintroduced my blog posts hierarchy with `/writing`. I thought it looked cool to have a flat hierarchy. But it felt odd with file based routing.
-- I retired my logo that I've had for years. It still lives as a favicon, but I felt like it clashed with the rest of the design.
+- I removed Tailwind and rolled my own CSS. No shade against Tailwind, but I want to learn CSS, not Tailwind.
+- I reintroduced my blog posts hierarchy with `/writing`. I thought it looked cool to have a flat hierarchy, but it felt awkward with file based routing.
+- I retired my logo that I've had for years. I felt like it clashed with the new design. Although, it still lives on as a favicon.
 
-Onto the key changes!
 ### Light Dark Theme
 
 It's been a while since I've written CSS. And there's been so many cool things since I've last touched it. The CSS [`light-dark` function](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/light-dark) is one of those things.
@@ -72,7 +72,7 @@ In my stylesheet, I set the `:root` pseudoclass to use the [light dark color sch
 }
 ```
 
-To implement the theme switcher, I first check if there's a theme in local storage. If there's not, then I get the browser theme. Then I toggle the theme, and set `color-scheme` to the new theme, as well as update the local storage.
+To implement the theme switcher, I first check if there's a theme in local storage. If there's not, then I get the browser theme. I toggle the theme, and set `color-scheme` to the new theme, as well as update the local storage.
 
 ```js
 const preferredColorScheme = (() => {
@@ -87,7 +87,7 @@ const handleToggleClick = () => {
 }
 ```
 
-I also wanted to make sure my code blocks switch between dark and light mode. Under the hood, Astro uses Shiki to parse markdown code blocks. And it has hooks to modify the Shiki config:
+I also wanted to make sure my code blocks switch between dark and light mode. Under the hood, [Astro uses Shiki to parse markdown code blocks](https://docs.astro.build/en/guides/syntax-highlighting/#markdown-code-blocks). And it has hooks to modify the Shiki config:
 
 ```js
 // In astro.config.js
@@ -100,7 +100,7 @@ shikiConfig: {
 },
 ```
 
-It's important to set `defaultColor` to false because that will generate a token with both light and dark variables. Example from [Shiki docs](https://shiki.style/guide/dual-themes#light-dark-dual-themes):
+It's important to set `defaultColor` to false. This forces Shiki to generate a token with both light and dark variables. Example from [Shiki docs](https://shiki.style/guide/dual-themes#light-dark-dual-themes):
 
 ```html
 <span style="--shiki-dark:#D8DEE9;--shiki-light:#2E3440">console</span>
@@ -113,10 +113,6 @@ Then in my CSS, I use `light-dark` function to switch between the two variables:
 .astro-code span {
   color: light-dark(var(--shiki-light), var(--shiki-dark));
   background-color: light-dark(var(--shiki-light-bg), var(--shiki-dark-bg));
-  /* Optional, if you also want font styles */
-  font-style: light-dark(var(--shiki-light-font-style), var(--shiki-dark-font-style));
-  font-weight: light-dark(var(--shiki-light-font-weight), var(--shiki-dark-font-weight));
-  text-decoration: light-dark(var(--shiki-light-text-decoration), var(--shiki-dark-text-decoration));
 }
 ```
 
@@ -137,15 +133,13 @@ First, let's start with the HTML:
 </p>
 ```
 
-I wanted to have each span slide in staggered from each other.
-
-So my CSS had to:
+I wanted to have each span slide up on load, staggered from each other. To achieve this animation, my CSS follows these steps:
 
 1. Setup the initial state of the text.
 2. Define a key frame that transitions from the initial to final state.
 3. For each `animate-phrase`, add an animation with a slight delay to stagger each phrase.
 
-I had to make sure I was setting the [animation-fill-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode) to `forwards`. This would mean that `animate-phrase` will retain the properties of the last keyframe.
+By setting the [animation-fill-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode) to `forwards` my `animate-phrase` class will retain the properties of the last keyframe.
 
 ```css
 @media (prefers-reduced-motion: no-preference) {
@@ -184,7 +178,9 @@ I had to make sure I was setting the [animation-fill-mode](https://developer.moz
 }
 ```
 
-While this CSS transition wasn't too bad. I can see why you would switch to using a JS library. It's a pain to manage the delay for the stagger. If I were using a JS animation library like [anime.js](https://animejs.com/), it could look like this:
+Writing out the CSS transition wasn't too bad. But I can see why you would switch to using a JS library. 
+
+It's a pain to manage the delay for the stagger. If I were using a JS animation library like [anime.js](https://animejs.com/), it could look like this:
 
 ```js
 import { createTimeline, stagger } from 'animejs';
@@ -203,9 +199,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
 ### Subscribing users to my newsletter
 
-Beehiiv has an API you can use to subscribe emails to your newsletter. I could leverage Astro's server side rendering to call this API.
+Finally, I got to write some backend code 🤩. 
 
-First I setup a new `pages/api/subscribe.ts` file that contained the backend code. Adding `export const prerender = false` tells Astro that this file should be server side rendered.
+Beehiiv has an API you can use to subscribe emails to your newsletter. I needed to create a server side endpoint in Astro to call this API.
+
+First step is to create a `pages/api/subscribe.ts` file that calls the Beehiiv endpoint.
 
 *For brevity, I omitted validations and error checking in the following code blocks.*
 
@@ -237,6 +235,8 @@ export const POST: APIRoute = async ({ request }) => {
 }
 ```
 
+Adding `export const prerender = false` tells Astro that this file should be server side rendered.
+
 Next in my `Newsletter.astro` component, I set up the client side code to call this backend endpoint.
 
 ```javascript
@@ -266,6 +266,8 @@ The last thing was to add the corresponding adapter to my Astro config. I'm usin
 Huge props to Astro for making hybrid rendering relatively easy! I love that I can statically render my `Newsletter.astro` component but have it call a server side rendered route.
 
 ## Before and after of the homepage
+
+To wrap everything up, here are some before and after pictures of the homepage. It's nice to see the difference at a glance!
 ### Before
 
 [![old homepage in light theme](https://res.cloudinary.com/jonathan-yeong/image/upload/v1745081595/unsigned_obsidian_uploads/rgun7zqofb6drov5qzjl.png)](https://res.cloudinary.com/jonathan-yeong/image/upload/v1745081595/unsigned_obsidian_uploads/rgun7zqofb6drov5qzjl.png)
