@@ -1,6 +1,6 @@
 ---
 pubDate: 2024-06-30
-updatedDate: 2025-01-07
+updatedDate: 2025-07-10
 title: Setting up dev containers in Rails
 description: Development containers are an alternative to local development. You can have a dev ready environment running in minutes. Here's how we can set one up in Rails, issues I ran into along the way, and my initial thoughts.
 featured: true
@@ -8,7 +8,8 @@ draft: false
 topics:
   - tutorial
 ---
-[Development containers](https://containers.dev/), aka dev containers, have been around since 2019. Made by Microsoft, they allow you to use a container as a development environment. If you've used GitHub Codespaces, you've loaded a dev container. In Rails 7.2, there will be a new `devcontainer` flag that will generate a dev container folder for you. Ever since [I wrote about Rails dev containers](https://jonathanyeong.com/rails-dev-containers/), I've been eager to try them. If you also want to be an early adopter, here are a few issues I ran into.
+
+[Development containers](https://containers.dev/), aka dev containers, have been around since 2019. Made by Microsoft, they allow you to use a container as a development environment. If you've used GitHub Codespaces, you've loaded a dev container. In Rails 7.2, there will be a new `devcontainer` flag that will generate a dev container folder for you. Ever since I found out about Rails devcontainers at a local Ruby meetup, I've been eager to try them. If you also want to be an early adopter, here are a few issues I ran into.
 ## Installing libraries
 Before I can get dev containers working locally, I need to install a few libraries and extensions.
 
