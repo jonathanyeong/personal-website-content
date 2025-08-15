@@ -5,6 +5,7 @@ title: "Redesigning my site: version 3"
 description: "A behind-the-scenes look at redesigning my personal site (v3). I share my design goals, evolution through multiple iterations, and key technical changes."
 featured: true
 draft: false
+bskyPostId: "3lnbfato4i22d"
 topics:
   - reflection
 ---
@@ -178,7 +179,7 @@ By setting the [animation-fill-mode](https://developer.mozilla.org/en-US/docs/We
 }
 ```
 
-Writing out the CSS transition wasn't too bad. But I can see why you would switch to using a JS library. 
+Writing out the CSS transition wasn't too bad. But I can see why you would switch to using a JS library.
 
 It's a pain to manage the delay for the stagger. If I were using a JS animation library like [anime.js](https://animejs.com/), it could look like this:
 
@@ -199,7 +200,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 ### Subscribing users to my newsletter
 
-Finally, I got to write some backend code 🤩. 
+Finally, I got to write some backend code 🤩.
 
 Beehiiv has an API you can use to subscribe emails to your newsletter. I needed to create a server side endpoint in Astro to call this API.
 
